@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kb6n84v4tsbv/public_html/development.innable.io
+    - /bin/cp -a * $DEPLOYPATH
